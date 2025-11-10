@@ -14,36 +14,29 @@ The goal of this project is to:
 
 ---
 
-## Machine Learning Techniques Used
-- **Random Forest Classifier** – a bagging-based ensemble algorithm using multiple decision trees.
-- **XGBoost Classifier** – a boosting-based ensemble model known for high accuracy and efficiency.
-- **Model Evaluation Metrics:**
-  - Accuracy Score
-  - Confusion Matrix
-  - Classification Report (Precision, Recall, F1-score)
+## Features
+
+-   Train and evaluate a **Random Forest** classifier
+-   Train and evaluate an **XGBoost** classifier
+-   Visualize confusion matrices for both models
+-   Plot top features contributing to classification
+-   Compare model performance using standard metrics (accuracy, precision, recall, F1-score)
 
 ---
 
-## Dataset
-- **Source:** `fetch_covtype` from `sklearn.datasets` (no need to download manually)
-- **Name:** Forest CoverType
-- **Target:** `Cover_Type` – indicates the type of forest cover (1 to 7 classes)
-- **Features:** Various cartographic attributes such as:
-  - Elevation
-  - Aspect
-  - Slope
-  - Horizontal & Vertical Distances
-  - Soil Type (binary encoded)
-  - Wilderness Area (binary encoded)
+## Technologies Used
 
-> The dataset is loaded directly using Scikit-learn’s `fetch_covtype(as_frame=True)` function.
+-   **Python 3.9+**
+-   **NumPy / Pandas**
+-   **Matplotlib / Seaborn**
+-   **Scikit-learn** (Random Forest, dataset loading, metrics)
+-   **XGBoost** (gradient boosting classifier)
 
 ---
 
 ## Project Structure
 ```
 ForestCoverTypeClassification/
-│
 ├── forest_cover_classification.ipynb
 ├── README.md
 └── requirements.txt
@@ -62,11 +55,20 @@ ForestCoverTypeClassification/
 
 ---
 
-## Results & Visualizations
-- Confusion matrix heatmaps for both models.
-- Feature importance plot (top 10 most important features).
-- Comparison of model accuracies (Random Forest vs XGBoost).
-- Classification reports with precision, recall, and F1-score.
+## Results & Training Performance
+
+### Random Forest
+- Moderate accuracy depending on hyperparameters
+- Confusion matrix and classification report provide insight into performance
+- Top features identified via feature importance plot
+
+### XGBoost
+- Higher accuracy than Random Forest
+- Captures complex patterns and relationships in the data
+- Best performance achieved after proper hyperparameter tuning
+
+**Conclusion:**  
+XGBoost performs better overall, while Random Forest provides a stable and interpretable baseline.
 
 ---
 
