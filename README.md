@@ -5,7 +5,7 @@ It demonstrates how **Random Forest** and **XGBoost** classifiers can be applied
 
 ---
 
-## Project Overview
+## Overview
 The goal of this project is to:
 - Explore and understand the **Forest CoverType** dataset.
 - Train and evaluate ensemble learning models: **Random Forest** and **XGBoost**.
@@ -51,28 +51,14 @@ ForestCoverTypeClassification/
 
 ---
 
-## Installation & Setup
+## How to Run
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/Mohammad-Jaafar/Forest-Cover-Type-Classification.git
-cd Forest-Cover-Type-Classification
-```
-
-### 2. Install dependencies
-If you're using Google Colab, most libraries are already installed.  
-Otherwise, run:
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run the notebook
-You can open the notebook in Jupyter or Google Colab:
-```bash
-jupyter notebook forest_cover_classification.ipynb
-```
-
-Or upload it directly to [Google Colab](https://colab.research.google.com/).
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Mohammad-Jaafar/Forest-Cover-Type-Classification.git
+   ```
+2. Open the notebook in Jupyter or Google Colab.
+3. Run all cells step-by-step to reproduce the results.
 
 ---
 
@@ -92,20 +78,12 @@ Or upload it directly to [Google Colab](https://colab.research.google.com/).
 
 ---
 
-## Future Improvements
-- Implement **hyperparameter tuning** (GridSearchCV / Optuna)
-- Add **cross-validation** for better generalization
-- Deploy using **Streamlit** or **Gradio**
-- Save trained models with **joblib** for reuse
-- Add a **web interface** for real-time prediction
-
----
-
 ## Author
 **Mohammad Jaafar**  
 mhdjaafar24@gmail.com  
 [LinkedIn](https://www.linkedin.com/in/mohammad-jaafar-)  
-[HuggingFace](https://github.com/mhdjaafar24)
+[HuggingFace](https://huggingface.co/Mhdjaafar)  
+[GitHub](https://github.com/Mohammad-Jaafar)
 
 ---
 
